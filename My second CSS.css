@@ -15,8 +15,9 @@ button {
     background-color: #f5cac3;
 }
 
-#signup {
+#signup:hover {
     background-color: #f28482;
+    width: 100px;
 }
 
 button:hover {
@@ -42,4 +43,39 @@ input [type="date"] {
 
 footer a {
     background-color: #f6bd60;
+}
+
+h2 {
+    color: #f8e9e7;
+    background-color: #f284829f;
+    width: 200px;
+    text-align: center;
+    padding: 7px 20px;
+    margin: 30px;
+}
+
+#one {
+    background-color: #f6bd60;
+    width: 300px;
+    border-color: #84a59d;
+    border-width: 5px;
+    border-style: groove;
+}
+
+#two {
+    background-color: white;
+    width: 300px;
+    border-color: #f28482;
+    border-width: 5px;
+    border-style: ridge;
+    border-radius: 25% 10%;
+}
+
+#three {
+    background-color: bisque;
+    width: 300px;
+    border-color: aquamarine;
+    border-width: 5px;
+    border-style: inset;
+    border-radius: 15px;
 }
